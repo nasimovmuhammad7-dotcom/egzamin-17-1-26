@@ -301,6 +301,9 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
   .mt-40 {
     margin-top: calc(var(--spacing) * 40);
   }
@@ -1124,6 +1127,11 @@
       gap: calc(var(--spacing) * 30);
     }
   }
+  .lg\:gap-40 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 40);
+    }
+  }
   .lg\:gap-50 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 50);
@@ -1147,6 +1155,11 @@
   .lg\:gap-90 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 90);
+    }
+  }
+  .lg\:p-30 {
+    @media (width >= 64rem) {
+      padding: calc(var(--spacing) * 30);
     }
   }
   .lg\:pt-10 {
