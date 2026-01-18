@@ -608,6 +608,9 @@
   .bg-\[url\(Groupp\)\] {
     background-image: url(Groupp);
   }
+  .bg-\[url\(Groupp\.jpg\)\] {
+    background-image: url(Groupp.jpg);
+  }
   .bg-\[url\(Groupp\.png\)\] {
     background-image: url(Groupp.png);
   }
@@ -890,6 +893,11 @@
   .md\:w-160 {
     @media (width >= 48rem) {
       width: calc(var(--spacing) * 160);
+    }
+  }
+  .md\:justify-center {
+    @media (width >= 48rem) {
+      justify-content: center;
     }
   }
   .md\:gap-10 {
