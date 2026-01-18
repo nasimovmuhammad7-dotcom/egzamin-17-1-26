@@ -908,6 +908,11 @@
       padding-left: calc(var(--spacing) * 20);
     }
   }
+  .md\:pl-40 {
+    @media (width >= 48rem) {
+      padding-left: calc(var(--spacing) * 40);
+    }
+  }
   .md\:pl-50 {
     @media (width >= 48rem) {
       padding-left: calc(var(--spacing) * 50);
