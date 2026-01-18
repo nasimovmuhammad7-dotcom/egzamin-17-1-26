@@ -383,6 +383,9 @@
   .h-200 {
     height: calc(var(--spacing) * 200);
   }
+  .max-h-dvh {
+    max-height: 100dvh;
+  }
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
@@ -829,6 +832,11 @@
       margin-left: calc(var(--spacing) * 38);
     }
   }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
+    }
+  }
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
@@ -1062,6 +1070,11 @@
   .lg\:ml-0 {
     @media (width >= 64rem) {
       margin-left: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:block {
+    @media (width >= 64rem) {
+      display: block;
     }
   }
   .lg\:flex {
